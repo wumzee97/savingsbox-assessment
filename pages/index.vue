@@ -1,11 +1,12 @@
 <script setup lang="ts">
-
+definePageMeta({
+  title: "HomePage",
+});
 </script>
 
 <template>
   <div>
     <v-parallax height="800px" src="~/assets/bg.jpg">
-    
       <div
         class="d-flex flex-column fill-height justify-center align-center text-white"
       >
@@ -15,6 +16,6 @@
         <h4 class="subheading">Submitted by Adewumi Alabi.</h4>
       </div>
     </v-parallax>
-   <DescriptionSection />
+    <DescriptionSection />
   </div>
 </template>

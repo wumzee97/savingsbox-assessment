@@ -1,3 +1,4 @@
+import { Title } from "#build/components";
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 export default defineNuxtConfig({
   //...
@@ -5,6 +6,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
+      title: 'SavingsBox NuxtJs Assessment',
+      meta: [
+        {
+          name: 'description', content: 'This simple web page has three pages: the Home page, Users page and User details page.'
+        }
+      ],
       script: [
         {
           src: "https://code.jquery.com/jquery-3.6.0.slim.min.js", // Include jQuery

@@ -2,6 +2,10 @@
 import { useUserStore } from "~/stores/users.store";
 import type { IUser } from "~/types";
 
+definePageMeta({
+  title: "User Details",
+});
+
 const route = useRoute();
 
 const user = ref<IUser>();

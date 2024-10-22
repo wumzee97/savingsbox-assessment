@@ -1,6 +1,10 @@
 <script lang="ts" setup>
 import { useUserStore } from "@/stores/users.store";
 
+definePageMeta({
+  title: "All Users",
+});
+
 const userStore = useUserStore();
 
 onMounted(async () => {
