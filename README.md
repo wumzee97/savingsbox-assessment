@@ -1,4 +1,23 @@
-# Nuxt Minimal Starter
+# NuxJs Assessment (By Adewumi Alabi)
+
+This simple web page has three pages: the Home page, Users page and User details page. You can view the users page by clicking on Users on users on the Navigation menu.
+
+ Clone the project
+
+ cd savingsbox-assessment (project directory)
+ run npm install to install all dependencies.
+ create a .env file in the root of the project directory
+
+ paste this in your .env file:
+
+ VITE_API_BASE_URL=https://jsonplaceholder.typicode.com/
+
+ start the project by running: npm run dev
+
+ Good luck!
+
+
+## Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
